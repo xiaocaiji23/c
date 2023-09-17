@@ -15,6 +15,21 @@ int main(void)
     scanf(" %c", &a);//%c前有空格,则从第一个非空格开始读入
     scanf("%c", &b); //%c前无空格,则从第一个开始读入(可以是空格)
     printf("带空格的:%c;不带空格的:%c", a, b);*/
+    /*探究%*.*d的输出格式
+    int a = 2;
+    printf("%4.2d", a);//四位宽度,至少显示两位,输出(逗号后面的部分叫参数列表)  02*/
+    //printf("\"你好\"");
+    /*char a = 'A';
+    int b = a;
+    if (a= b)
+    {
+        printf("相等\n");
+    }*/
+    int a, b;
+    if ((a,b)==b)
+    {
+        printf("相等\n");
+    }
     
     return 0;
 }
